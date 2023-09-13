@@ -54,12 +54,15 @@ def getimg(Tpath, Spath, x, y):
     except Exception:
         logging.warning(Tpath + '下载失败')
         print(str(x) + '_' + str(y) + '\033[0;31;40m\t下载失败\033[0m')
-        #getimg(Tpath, Spath, x, y)
 
 
 rootDir = "D:\\Tiles\\arcgisonline\\"
 
 for zoom in range(1, 8):
+
+    # 夏威夷
+    # lefttop = deg2num(22.981, -161.0909, zoom)
+    # rightbottom = deg2num(18.3, -154.3453, zoom)
     print("正在下载  zoom:" + str(zoom))
     # for x in range(lefttop[0], rightbottom[0]):
     #     for y in range(lefttop[1], rightbottom[1]+1):
