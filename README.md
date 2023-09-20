@@ -1,6 +1,8 @@
 # pythoncode
 收集一些常用的python代码
 
+LeetCode    LeetCode相关内容在此文件夹内更新
+
 0.zenofpython.py    python之禅
 
 getMapTile.py    用于下载XYZ类型地图瓦片 
