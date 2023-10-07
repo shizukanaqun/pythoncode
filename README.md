@@ -13,4 +13,4 @@
 
 - mergeexcel.py    用于合并excel文件
 
-- splitpdf.py    用于拆分pdf文件
+- pdfhelper.py    用于拆分pdf文件
