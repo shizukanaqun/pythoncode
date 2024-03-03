@@ -51,7 +51,7 @@ def translate_geojson(input_file, output_file, dx, dy):
 input_file = 'input.geojson'
 # 输出文件
 output_file = 'output.geojson'
-# 荣成与红沿河大概的偏移量
+# 偏移量
 dx = -1.0545  # 在x方向平移的距离  
 dy = 2.8305  # 在y方向平移的距离
 
